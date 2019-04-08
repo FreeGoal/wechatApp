@@ -1,0 +1,14 @@
+
+<block wx:for="{{[1, 2, 3]}}">
+    <view> {{index}}: </view>
+    <view> {{item}} </view>
+</block>
+<block wx:if="{{boolean==true}}">
+    <view class="bg_black">"hello"</view>
+</block>
+<block wx:elif="{{boolean==false}}">
+    <view class="bg_red"></view>
+</block>
+<block wx:else>
+    <view class="bg_red"></view>
+</block>

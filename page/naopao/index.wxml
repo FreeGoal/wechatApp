@@ -1,0 +1,3 @@
+<!--page/naopao/index.wxml-->
+<text>page/naopao/index.wxml</text>
+<view id="tapTest" data-hi="WeChat" bindtap="tapName"> Click me! </view>

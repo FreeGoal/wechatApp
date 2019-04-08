@@ -1,12 +1,50 @@
 {
   "pages":[
+    "page/naopao/index",
+    "page/project/index",
+    "page/news/index",
+    "page/profile/index",
+    "pages/wxml/index",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "backgroundTextStyle":"black",
+    "navigationBarBackgroundColor": "#7A7E83",
+    "navigationBarTitleText": "清华大学脑泡平台开发",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/naopao/index",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "脑泡"
+      },
+      {
+        "pagePath": "page/project/index",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "项目"
+      },
+      {
+        "pagePath": "page/news/index",
+        "iconPath": "image/icon_cloud.png",
+        "selectedIconPath": "image/icon_cloud_HL.png",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "page/profile/index",
+        "iconPath": "image/icon_cloud.png",
+        "selectedIconPath": "image/icon_cloud_HL.png",
+        "text": "个人"
+      }
+    ]
   }
+  
 }
